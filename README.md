@@ -1,58 +1,88 @@
 # Ohm's Law and Power Calculator
 
-## What it does
-This Python program calculates voltage, current, resistance and electrical power using Ohm's Law. The user chooses what to calculate, enters the known values, and receives an answer with the correct unit. The program repeats its menu until the user chooses to exit.
+Project Description
 
-## How to run it
-1. Install Python 3.
-2. Save the Python code as `ohms_law.py`.
-3. Open a terminal or command prompt in the folder containing the file.
-4. Run:
+The Ohm's Law and Power Calculator is a Python-based application developed as part of my CTE123 Python Mini Project.
 
-```bash
+The program helps users calculate voltage, current, resistance, and electrical power using basic electrical formulas.
+
+Features
+
+- Calculate Voltage.
+- Calculate Current.
+- Calculate Resistance.
+- Calculate Electrical Power.
+- Input validation and error handling.
+- Calculation History: allows users to view previous successful calculations.
+- Menu-driven interface.
+- Option to perform multiple calculations until the user exits.
+
+Formulas Used
+
+1. Voltage: V = I × R
+2. Current: I = V ÷ R
+3. Resistance: R = V ÷ I
+4. Power: P = V × I
+
+Where:
+
+- V = Voltage (Volts)
+- I = Current (Amperes)
+- R = Resistance (Ohms)
+- P = Power (Watts)
+
+How to Run the Program
+
+1. Install Python 3 on your computer.
+2. Download or clone this repository.
+3. Open the project folder.
+4. Run the following command:
+
 python ohms_law.py
-```
 
-You can also run the file using a Python IDE or an Android app such as Pydroid 3.
+Sample Output
 
-## Sample output
-
-```text
 ===== OHM'S LAW AND POWER CALCULATOR =====
-1. Calculate Voltage (V = I x R)
-2. Calculate Current (I = V / R)
-3. Calculate Resistance (R = V / I)
-4. Calculate Power (P = V x I)
+
+1. Calculate Voltage
+2. Calculate Current
+3. Calculate Resistance
+4. Calculate Power
 5. View Calculation History
 6. Exit
-Choose an option (1-6): 1
-Enter current in amperes (A): 2
-Enter resistance in ohms: 5
+
+Enter your choice: 1
+
+Enter current (A): 2
+Enter resistance (Ohms): 5
 
 Voltage = 10.00 V
 
-Choose an option (1-6): 4
-Enter voltage in volts (V): 12
-Enter current in amperes (A): 3
+My Original Extra Feature
 
-Power = 36.00 W
+Calculation History
 
-Choose an option (1-6): 5
+I added a Calculation History feature that allows users to view previous successful calculations without having to perform them again.
 
-===== CALCULATION HISTORY =====
-1. Voltage = 10.00 V
-2. Power = 36.00 W
+This feature makes the program more useful and user-friendly.
 
-Choose an option (1-6): 6
-Thank you for using the calculator. Goodbye!
-```
+What I Learned
 
-## My own twist
-I added a **Calculation History** feature. It stores every successful calculation in a Python list and allows the user to view previous results during the current session. This makes it easier to review earlier answers without entering the values again.
+Through this project, I improved my understanding of:
 
-## What I learned
-I practised creating Python functions, using a `while` loop, making decisions with `if/elif/else`, converting user input with `float()`, handling invalid input with `try/except`, and storing results in a list. I also applied the formulas of Ohm's Law and electrical power.
+- Python functions.
+- Variables and data types.
+- Conditional statements (if, elif and else).
+- While loops.
+- User input and type conversion.
+- Error handling.
+- Applying Python programming to electrical engineering calculations.
 
-## Author
-**Oladimeji Ismail olamilekan**  
-ND1 Mechatronics Engineering, YabaTech
+Author
+
+Oladimeji Ismail olamilekan
+
+ND1 Mechatronics Engineering
+Yaba College of Technology (YabaTech)
+
+Project: CTE123 Python Mini Project
