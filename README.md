@@ -1,4 +1,4 @@
-# Ohm's Law and Power Calculator
+## Ohm's Law and Power Calculator
 
 Project Description
 
@@ -6,7 +6,7 @@ The Ohm's Law and Power Calculator is a Python-based application developed as pa
 
 The program helps users calculate voltage, current, resistance, and electrical power using basic electrical formulas.
 
-Features
+##Features
 
 - Calculate Voltage.
 - Calculate Current.
@@ -17,7 +17,7 @@ Features
 - Menu-driven interface.
 - Option to perform multiple calculations until the user exits.
 
-Formulas Used
+##Formulas Used
 
 1. Voltage: V = I × R
 2. Current: I = V ÷ R
@@ -40,7 +40,7 @@ How to Run the Program
 
 python ohms_law.py
 
-Sample Output
+##Sample Output
 
 ===== OHM'S LAW AND POWER CALCULATOR =====
 
@@ -58,7 +58,7 @@ Enter resistance (Ohms): 5
 
 Voltage = 10.00 V
 
-My Original Extra Feature
+##My Original Extra Feature
 
 Calculation History
 
@@ -66,7 +66,7 @@ I added a Calculation History feature that allows users to view previous success
 
 This feature makes the program more useful and user-friendly.
 
-What I Learned
+##What I Learned
 
 Through this project, I improved my understanding of:
 
@@ -78,7 +78,7 @@ Through this project, I improved my understanding of:
 - Error handling.
 - Applying Python programming to electrical engineering calculations.
 
-Author
+##Author
 
 Oladimeji Ismail olamilekan
 
